@@ -13,7 +13,7 @@ About **45x faster** than a typical Python Jieba web app. Details can be found a
 
 ## How to use Jieba WebAssembly on browser or Deno without installing npm?
 
-Check out [this blog post]()
+Check out [this blog post](https://xirtam.cxumol.com/browser-wasm-jieba/)
 
 ## Future plan
 
