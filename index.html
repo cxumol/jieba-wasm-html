@@ -133,7 +133,7 @@ const _load_wasm_jieba = async ()=> {
 
 const myCut = async ()=> {
   const t = new Timer(); t.start();
-  const wait_loading = await _load_wasm_jieba();
+  await _load_wasm_jieba();
   putTimer(`${t.stop()} ms load wasm`);
 
   const text = document.getElementById('input-text').value
