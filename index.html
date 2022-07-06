@@ -126,8 +126,9 @@ const _load_wasm_jieba = async ()=> {
       default: init,
       cut
     } = await import("./jieba_rs_wasm.js");
-  await init();
+  const inited = await init();
   window.cut = cut;
+  return inited;
 }
 
 const myCut = async ()=> {
