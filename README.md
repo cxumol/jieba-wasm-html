@@ -8,7 +8,7 @@ https://cxumol.github.io/jieba-wasm-html/
 
 ## Benchmark
 
-About 45x fater than a typical Jieba web app using python backend. Details can be found at <https://github.com/cxumol/jieba-wasm-html/issues/1>
+About **45x faster** than a typical Python Jieba web app. Details can be found at <https://github.com/cxumol/jieba-wasm-html/issues/1>
 
 ## How to use Jieba WebAssembly on browser or Deno without installing npm?
 
@@ -18,9 +18,9 @@ Check out [this blog post]()
 
 Pull requests are welcomed! <s>Otherwise gugugu</s>
 
-- [] User can choose to load different example text from corpus
-- [] Enable more Jieba-wasm functions `cut_all, cut_for_search, tokenize, add_word`
-- [] Implement your brilliant new idea
+- [ ] User can choose to load different example text from corpus
+- [ ] Enable more Jieba-wasm functions `cut_all, cut_for_search, tokenize, add_word`
+- [ ] Implement your brilliant new idea
 
 ## Acknowledgement
 
