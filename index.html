@@ -80,7 +80,8 @@ AT&amp;T是一件不错的公司，给你发offer了吗？
 C++和c#是什么关系？11+122=133，是吗？
 </textarea>
 <br/>
-<button type="button" class="btn btn-primary" onclick="myCut()">分词</button>
+<button type="button" class="btn btn-primary" onclick="myCut()">切句为词</button>
+<button type="button" class="btn btn-danger" onclick="clearContent()">清扫一空</button>
 <br/>
 <div id="result" class="result-area"></div>
 
@@ -118,6 +119,11 @@ const putTimer = (text)=>{
 }
 const cleanTimer = ()=>document.getElementById('timer').innerHTML="";
 
+/* Other btn */
+const clearContent= ()=>{
+  document.getElementById('result').textContent="";
+  document.getElementById('input-text').value="";
+}
 /* load wasm module */
 const _load_wasm_jieba = async ()=> {
   if (window.cut !== undefined) return;
