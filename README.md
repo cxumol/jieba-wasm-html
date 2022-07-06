@@ -1,6 +1,7 @@
 # jieba-wasm-html
-Fast Jieba Chinese text segmentation on browser. No need for backend; No need for NPM.
-基于 WebAssembly 结巴分词实现的纯前端分词服务, 只需浏览器无需npm
+Fast Jieba Chinese text segmentation on browser. No need for backend; No need for NPM. Code works well on Deno, too.
+
+基于 WebAssembly 结巴分词实现的纯前端分词服务, 只需浏览器无需 npm; 亦可用于 Deno
 
 ## Demo
 
