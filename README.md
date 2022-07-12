@@ -11,9 +11,9 @@ https://cxumol.github.io/jieba-wasm-html/
 
 About **45x faster** than a typical Python Jieba web app. Details can be found at <https://github.com/cxumol/jieba-wasm-html/issues/1>
 
-## How to use Jieba WebAssembly on browser or Deno without installing npm?
+## Technical information
 
-Check out [this blog post](https://xirtam.cxumol.com/browser-wasm-jieba/)
+Check out this blog post [How to use Jieba WebAssembly on browser or Deno without installing npm?](https://xirtam.cxumol.com/browser-wasm-jieba/)
 
 ## Future plan
 
